@@ -14,9 +14,9 @@
 		95030F1026DF3ECD00FABEB1 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95030F0E26DF3ECD00FABEB1 /* Demo.xcdatamodeld */; };
 		95030F1226DF3ECE00FABEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95030F1126DF3ECE00FABEB1 /* Assets.xcassets */; };
 		95030F1526DF3ECE00FABEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95030F1326DF3ECE00FABEB1 /* LaunchScreen.storyboard */; };
-		95030F2026DF51C300FABEB1 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030F1D26DF51C300FABEB1 /* ScanImageView.swift */; };
-		95030F2126DF51C300FABEB1 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030F1E26DF51C300FABEB1 /* ScanButton.swift */; };
-		95030F2226DF51C300FABEB1 /* OcrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030F1F26DF51C300FABEB1 /* OcrTextView.swift */; };
+		95030F2726DFF1E400FABEB1 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030F2426DFF1E400FABEB1 /* ScanButton.swift */; };
+		95030F2826DFF1E400FABEB1 /* OcrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030F2526DFF1E400FABEB1 /* OcrTextView.swift */; };
+		95030F2926DFF1E400FABEB1 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030F2626DFF1E400FABEB1 /* ScanImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		95030F1126DF3ECE00FABEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95030F1426DF3ECE00FABEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95030F1626DF3ECE00FABEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95030F1D26DF51C300FABEB1 /* ScanImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
-		95030F1E26DF51C300FABEB1 /* ScanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
-		95030F1F26DF51C300FABEB1 /* OcrTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcrTextView.swift; sourceTree = "<group>"; };
+		95030F2426DFF1E400FABEB1 /* ScanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		95030F2526DFF1E400FABEB1 /* OcrTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcrTextView.swift; sourceTree = "<group>"; };
+		95030F2626DFF1E400FABEB1 /* ScanImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		95030F0426DF3ECD00FABEB1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				95030F1C26DF51A500FABEB1 /* New Group */,
+				95030F2326DFF1E400FABEB1 /* Viewfile */,
 				95030F0526DF3ECD00FABEB1 /* AppDelegate.swift */,
 				95030F0726DF3ECD00FABEB1 /* SceneDelegate.swift */,
 				95030F0926DF3ECD00FABEB1 /* ViewController.swift */,
@@ -77,14 +77,14 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		95030F1C26DF51A500FABEB1 /* New Group */ = {
+		95030F2326DFF1E400FABEB1 /* Viewfile */ = {
 			isa = PBXGroup;
 			children = (
-				95030F1F26DF51C300FABEB1 /* OcrTextView.swift */,
-				95030F1E26DF51C300FABEB1 /* ScanButton.swift */,
-				95030F1D26DF51C300FABEB1 /* ScanImageView.swift */,
+				95030F2426DFF1E400FABEB1 /* ScanButton.swift */,
+				95030F2526DFF1E400FABEB1 /* OcrTextView.swift */,
+				95030F2626DFF1E400FABEB1 /* ScanImageView.swift */,
 			);
-			path = "New Group";
+			path = Viewfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,13 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95030F2726DFF1E400FABEB1 /* ScanButton.swift in Sources */,
 				95030F0A26DF3ECD00FABEB1 /* ViewController.swift in Sources */,
 				95030F0626DF3ECD00FABEB1 /* AppDelegate.swift in Sources */,
 				95030F1026DF3ECD00FABEB1 /* Demo.xcdatamodeld in Sources */,
-				95030F2026DF51C300FABEB1 /* ScanImageView.swift in Sources */,
-				95030F2126DF51C300FABEB1 /* ScanButton.swift in Sources */,
+				95030F2826DFF1E400FABEB1 /* OcrTextView.swift in Sources */,
 				95030F0826DF3ECD00FABEB1 /* SceneDelegate.swift in Sources */,
-				95030F2226DF51C300FABEB1 /* OcrTextView.swift in Sources */,
+				95030F2926DFF1E400FABEB1 /* ScanImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
